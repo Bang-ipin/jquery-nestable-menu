@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Menu_lib {
+class Lib_menu {
 	protected $CI;
 	public function __construct(){
 		$this->CI =& get_instance();
